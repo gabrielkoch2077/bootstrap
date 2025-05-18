@@ -1,0 +1,38 @@
+body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .meu-header {
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        .foto-perfil {
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .hobby-card {
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+        .hobby-card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .social-icon {
+            font-size: 24px;
+            margin: 0 10px;
+            color: white;
+        }
+
+        h2 {
+            text-align:left;
+        }
